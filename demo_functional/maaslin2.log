@@ -1,0 +1,126 @@
+2024-05-02 14:44:58.287571 INFO::Writing function arguments to log file
+2024-05-02 14:44:58.455894 DEBUG::Function arguments
+2024-05-02 14:44:58.488214 DEBUG::Output folder: demo_functional
+2024-05-02 14:44:58.490264 DEBUG::Min Abundance: 0.000100
+2024-05-02 14:44:58.492218 DEBUG::Min Prevalence: 0.100000
+2024-05-02 14:44:58.494123 DEBUG::Normalization: TSS
+2024-05-02 14:44:58.496492 DEBUG::Transform: LOG
+2024-05-02 14:44:58.498463 DEBUG::Analysis method: LM
+2024-05-02 14:44:58.500406 DEBUG::Max significance: 0.250000
+2024-05-02 14:44:58.502463 DEBUG::Random effects:
+2024-05-02 14:44:58.505275 DEBUG::Fixed effects: diagnosis,dysbiosis
+2024-05-02 14:44:58.507517 DEBUG::Correction method: BH
+2024-05-02 14:44:58.509494 DEBUG::Standardize: TRUE
+2024-05-02 14:44:58.518368 DEBUG::Cores: 1
+2024-05-02 14:44:58.520669 INFO::Verifying options selected are valid
+2024-05-02 14:44:58.687236 INFO::Determining format of input files
+2024-05-02 14:44:58.698678 INFO::Input format is data samples as columns and metadata samples as rows
+2024-05-02 14:44:58.781069 DEBUG::Transformed data so samples are rows
+2024-05-02 14:44:58.787727 DEBUG::A total of 1595 samples were found in both the data and metadata
+2024-05-02 14:44:58.792452 DEBUG::Reordering data/metadata to use same sample ordering
+2024-05-02 14:44:58.804045 INFO::Formula for fixed effects: expr ~  diagnosis + dysbiosis
+2024-05-02 14:44:58.821035 INFO::Filter data based on min abundance and min prevalence
+2024-05-02 14:44:58.833326 INFO::Total samples in data: 1595
+2024-05-02 14:44:58.844129 INFO::Min samples required with min abundance for a feature not to be filtered: 159.500000
+2024-05-02 14:44:58.86422 INFO::Total filtered features: 0
+2024-05-02 14:44:58.876625 INFO::Filtered feature names from abundance and prevalence filtering:
+2024-05-02 14:44:58.902285 INFO::Total filtered features with variance filtering: 0
+2024-05-02 14:44:58.911421 INFO::Filtered feature names from variance filtering:
+2024-05-02 14:44:58.919786 INFO::Running selected normalization method: TSS
+2024-05-02 14:45:02.594262 INFO::Applying z-score to standardize continuous metadata
+2024-05-02 14:45:02.689952 INFO::Running selected transform method: LOG
+2024-05-02 14:45:02.705706 INFO::Running selected analysis method: LM
+2024-05-02 14:45:02.864341 INFO::Fitting model to feature number 1, ANAEROFRUCAT.PWY..homolactic.fermentation
+2024-05-02 14:45:03.013804 INFO::Fitting model to feature number 2, ANAGLYCOLYSIS.PWY..glycolysis.III..from.glucose.
+2024-05-02 14:45:03.046675 INFO::Fitting model to feature number 3, ARO.PWY..chorismate.biosynthesis.I
+2024-05-02 14:45:03.088703 INFO::Fitting model to feature number 4, COA.PWY.1..coenzyme.A.biosynthesis.II..mammalian.
+2024-05-02 14:45:03.122174 INFO::Fitting model to feature number 5, COA.PWY..coenzyme.A.biosynthesis.I
+2024-05-02 14:45:03.160609 INFO::Fitting model to feature number 6, COMPLETE.ARO.PWY..superpathway.of.aromatic.amino.acid.biosynthesis
+2024-05-02 14:45:03.208265 INFO::Fitting model to feature number 7, DENOVOPURINE2.PWY..superpathway.of.purine.nucleotides.de.novo.biosynthesis.II
+2024-05-02 14:45:03.25715 INFO::Fitting model to feature number 8, DTDPRHAMSYN.PWY..dTDP.L.rhamnose.biosynthesis.I
+2024-05-02 14:45:03.299496 INFO::Fitting model to feature number 9, HISTSYN.PWY..L.histidine.biosynthesis
+2024-05-02 14:45:03.326575 INFO::Fitting model to feature number 10, PANTO.PWY..phosphopantothenate.biosynthesis.I
+2024-05-02 14:45:03.359152 INFO::Fitting model to feature number 11, PANTOSYN.PWY..pantothenate.and.coenzyme.A.biosynthesis.I
+2024-05-02 14:45:03.388572 INFO::Fitting model to feature number 12, PEPTIDOGLYCANSYN.PWY..peptidoglycan.biosynthesis.I..meso.diaminopimelate.containing.
+2024-05-02 14:45:03.418707 INFO::Fitting model to feature number 13, PHOSLIPSYN.PWY..superpathway.of.phospholipid.biosynthesis.I..bacteria.
+2024-05-02 14:45:03.455012 INFO::Fitting model to feature number 14, PWY.1042..glycolysis.IV..plant.cytosol.
+2024-05-02 14:45:03.495506 INFO::Fitting model to feature number 15, PWY.2942..L.lysine.biosynthesis.III
+2024-05-02 14:45:03.537641 INFO::Fitting model to feature number 16, PWY.3001..superpathway.of.L.isoleucine.biosynthesis.I
+2024-05-02 14:45:03.559247 INFO::Fitting model to feature number 17, PWY.3841..folate.transformations.II
+2024-05-02 14:45:03.586396 INFO::Fitting model to feature number 18, PWY.4242..pantothenate.and.coenzyme.A.biosynthesis.III
+2024-05-02 14:45:03.609433 INFO::Fitting model to feature number 19, PWY.5097..L.lysine.biosynthesis.VI
+2024-05-02 14:45:03.643072 INFO::Fitting model to feature number 20, PWY.5154..L.arginine.biosynthesis.III..via.N.acetyl.L.citrulline.
+2024-05-02 14:45:03.681323 INFO::Fitting model to feature number 21, PWY.5667..CDP.diacylglycerol.biosynthesis.I
+2024-05-02 14:45:03.718648 INFO::Fitting model to feature number 22, PWY.5686..UMP.biosynthesis
+2024-05-02 14:45:03.828416 INFO::Counting total values for each feature
+2024-05-02 14:45:03.868033 INFO::Writing filtered data to file demo_functional/features/filtered_data.tsv
+2024-05-02 14:45:04.123194 INFO::Writing filtered, normalized data to file demo_functional/features/filtered_data_norm.tsv
+2024-05-02 14:45:04.53719 INFO::Writing filtered, normalized, transformed data to file demo_functional/features/filtered_data_norm_transformed.tsv
+2024-05-02 14:45:04.829837 INFO::Writing residuals to file demo_functional/fits/residuals.rds
+2024-05-02 14:45:04.889465 INFO::Writing fitted values to file demo_functional/fits/fitted.rds
+2024-05-02 14:45:04.938663 INFO::Writing all results to file (ordered by increasing q-values): demo_functional/all_results.tsv
+2024-05-02 14:45:04.945846 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): demo_functional/significant_results.tsv
+2024-05-02 14:45:04.954467 INFO::Writing heatmap of significant results to file: demo_functional/heatmap.pdf
+2024-05-02 14:45:05.989539 INFO::Writing association plots (one for each significant association) to output folder: demo_functional
+2024-05-02 14:45:05.998259 INFO::Plotting associations from most to least significant, grouped by metadata
+2024-05-02 14:45:06.004308 INFO::Plotting data for metadata number 1, dysbiosis
+2024-05-02 14:45:06.008497 INFO::Creating scatter plot for continuous data, dysbiosis vs PWY.5154..L.arginine.biosynthesis.III..via.N.acetyl.L.citrulline.
+2024-05-02 14:45:07.160519 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2024-05-02 14:45:07.165105 INFO::Creating scatter plot for continuous data, dysbiosis vs PWY.5097..L.lysine.biosynthesis.VI
+2024-05-02 14:45:08.080469 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2024-05-02 14:45:08.082895 INFO::Creating scatter plot for continuous data, dysbiosis vs COA.PWY.1..coenzyme.A.biosynthesis.II..mammalian.
+2024-05-02 14:45:09.289751 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2024-05-02 14:45:09.294061 INFO::Creating scatter plot for continuous data, dysbiosis vs PEPTIDOGLYCANSYN.PWY..peptidoglycan.biosynthesis.I..meso.diaminopimelate.containing.
+2024-05-02 14:45:10.348968 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2024-05-02 14:45:10.351346 INFO::Creating scatter plot for continuous data, dysbiosis vs PWY.2942..L.lysine.biosynthesis.III
+2024-05-02 14:45:10.814199 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2024-05-02 14:45:10.816662 INFO::Creating scatter plot for continuous data, dysbiosis vs DENOVOPURINE2.PWY..superpathway.of.purine.nucleotides.de.novo.biosynthesis.II
+2024-05-02 14:45:11.565122 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2024-05-02 14:45:11.571318 INFO::Creating scatter plot for continuous data, dysbiosis vs PWY.4242..pantothenate.and.coenzyme.A.biosynthesis.III
+2024-05-02 14:45:12.055122 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2024-05-02 14:45:12.057539 INFO::Creating scatter plot for continuous data, dysbiosis vs PANTOSYN.PWY..pantothenate.and.coenzyme.A.biosynthesis.I
+2024-05-02 14:45:12.632248 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2024-05-02 14:45:12.634077 INFO::Creating scatter plot for continuous data, dysbiosis vs ARO.PWY..chorismate.biosynthesis.I
+2024-05-02 14:45:13.42187 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2024-05-02 14:45:13.425511 INFO::Creating scatter plot for continuous data, dysbiosis vs COA.PWY..coenzyme.A.biosynthesis.I
+2024-05-02 14:45:14.000223 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2024-05-02 14:45:14.001877 INFO::Creating scatter plot for continuous data, dysbiosis vs COMPLETE.ARO.PWY..superpathway.of.aromatic.amino.acid.biosynthesis
+2024-05-02 14:45:14.634299 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2024-05-02 14:45:14.637072 INFO::Creating scatter plot for continuous data, dysbiosis vs HISTSYN.PWY..L.histidine.biosynthesis
+2024-05-02 14:45:15.186058 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2024-05-02 14:45:15.187831 INFO::Creating scatter plot for continuous data, dysbiosis vs ANAEROFRUCAT.PWY..homolactic.fermentation
+2024-05-02 14:45:15.679386 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2024-05-02 14:45:15.682432 INFO::Creating scatter plot for continuous data, dysbiosis vs ANAGLYCOLYSIS.PWY..glycolysis.III..from.glucose.
+2024-05-02 14:45:16.394302 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2024-05-02 14:45:16.399048 INFO::Creating scatter plot for continuous data, dysbiosis vs PHOSLIPSYN.PWY..superpathway.of.phospholipid.biosynthesis.I..bacteria.
+2024-05-02 14:45:17.286584 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2024-05-02 14:45:17.289275 INFO::Creating scatter plot for continuous data, dysbiosis vs PWY.3001..superpathway.of.L.isoleucine.biosynthesis.I
+2024-05-02 14:45:17.893478 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2024-05-02 14:45:17.895257 INFO::Creating scatter plot for continuous data, dysbiosis vs PWY.3841..folate.transformations.II
+2024-05-02 14:45:18.309213 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2024-05-02 14:45:18.311033 INFO::Creating scatter plot for continuous data, dysbiosis vs PWY.1042..glycolysis.IV..plant.cytosol.
+2024-05-02 14:45:19.293148 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2024-05-02 14:45:19.299551 INFO::Creating scatter plot for continuous data, dysbiosis vs PWY.5667..CDP.diacylglycerol.biosynthesis.I
+2024-05-02 14:45:20.192389 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2024-05-02 14:45:20.196255 INFO::Creating scatter plot for continuous data, dysbiosis vs PANTO.PWY..phosphopantothenate.biosynthesis.I
+2024-05-02 14:45:20.767104 DEBUG::`geom_smooth()` using formula = 'y ~ x'
+2024-05-02 14:45:30.291008 INFO::Plotting data for metadata number 2, diagnosis
+2024-05-02 14:45:30.295366 INFO::Creating boxplot for categorical data, diagnosis vs PWY.5686..UMP.biosynthesis
+2024-05-02 14:45:30.838176 INFO::Creating boxplot for categorical data, diagnosis vs PEPTIDOGLYCANSYN.PWY..peptidoglycan.biosynthesis.I..meso.diaminopimelate.containing.
+2024-05-02 14:45:31.257582 INFO::Creating boxplot for categorical data, diagnosis vs DENOVOPURINE2.PWY..superpathway.of.purine.nucleotides.de.novo.biosynthesis.II
+2024-05-02 14:45:31.67265 INFO::Creating boxplot for categorical data, diagnosis vs PWY.1042..glycolysis.IV..plant.cytosol.
+2024-05-02 14:45:32.130707 INFO::Creating boxplot for categorical data, diagnosis vs PWY.5686..UMP.biosynthesis
+2024-05-02 14:45:32.582548 INFO::Creating boxplot for categorical data, diagnosis vs ANAGLYCOLYSIS.PWY..glycolysis.III..from.glucose.
+2024-05-02 14:45:33.036594 INFO::Creating boxplot for categorical data, diagnosis vs PANTOSYN.PWY..pantothenate.and.coenzyme.A.biosynthesis.I
+2024-05-02 14:45:33.516197 INFO::Creating boxplot for categorical data, diagnosis vs ANAEROFRUCAT.PWY..homolactic.fermentation
+2024-05-02 14:45:33.93489 INFO::Creating boxplot for categorical data, diagnosis vs COA.PWY..coenzyme.A.biosynthesis.I
+2024-05-02 14:45:34.397565 INFO::Creating boxplot for categorical data, diagnosis vs PWY.1042..glycolysis.IV..plant.cytosol.
+2024-05-02 14:45:34.882017 INFO::Creating boxplot for categorical data, diagnosis vs PEPTIDOGLYCANSYN.PWY..peptidoglycan.biosynthesis.I..meso.diaminopimelate.containing.
+2024-05-02 14:45:35.338393 INFO::Creating boxplot for categorical data, diagnosis vs PWY.3001..superpathway.of.L.isoleucine.biosynthesis.I
+2024-05-02 14:45:35.794737 INFO::Creating boxplot for categorical data, diagnosis vs PWY.4242..pantothenate.and.coenzyme.A.biosynthesis.III
+2024-05-02 14:45:36.284215 INFO::Creating boxplot for categorical data, diagnosis vs PWY.5667..CDP.diacylglycerol.biosynthesis.I
+2024-05-02 14:45:36.757499 INFO::Creating boxplot for categorical data, diagnosis vs PWY.5097..L.lysine.biosynthesis.VI
+2024-05-02 14:45:37.295473 INFO::Creating boxplot for categorical data, diagnosis vs DTDPRHAMSYN.PWY..dTDP.L.rhamnose.biosynthesis.I
+2024-05-02 14:45:37.729475 INFO::Creating boxplot for categorical data, diagnosis vs PWY.5154..L.arginine.biosynthesis.III..via.N.acetyl.L.citrulline.
+2024-05-02 14:45:38.220929 INFO::Creating boxplot for categorical data, diagnosis vs ANAEROFRUCAT.PWY..homolactic.fermentation
+2024-05-02 14:45:38.661585 INFO::Creating boxplot for categorical data, diagnosis vs HISTSYN.PWY..L.histidine.biosynthesis

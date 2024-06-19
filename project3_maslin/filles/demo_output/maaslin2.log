@@ -1,0 +1,18 @@
+2024-05-07 11:20:47.246482 INFO::Writing function arguments to log file
+2024-05-07 11:20:47.249605 DEBUG::Function arguments
+2024-05-07 11:20:47.251208 DEBUG::Output folder: demo_output
+2024-05-07 11:20:47.254933 DEBUG::Min Abundance: 0.000000
+2024-05-07 11:20:47.257505 DEBUG::Min Prevalence: 0.000000
+2024-05-07 11:20:47.260494 DEBUG::Normalization: TSS
+2024-05-07 11:20:47.26311 DEBUG::Transform: LOG
+2024-05-07 11:20:47.266187 DEBUG::Analysis method: LM
+2024-05-07 11:20:47.268313 DEBUG::Max significance: 0.250000
+2024-05-07 11:20:47.269998 DEBUG::Random effects:
+2024-05-07 11:20:47.272525 DEBUG::Fixed effects: Disease
+2024-05-07 11:20:47.459865 DEBUG::Correction method: BH
+2024-05-07 11:20:47.461702 DEBUG::Standardize: TRUE
+2024-05-07 11:20:47.470692 DEBUG::Cores: 1
+2024-05-07 11:20:47.472535 INFO::Verifying options selected are valid
+2024-05-07 11:20:47.476311 INFO::Determining format of input files
+2024-05-07 11:20:47.48015 INFO::Input format is data samples as rows and metadata samples as rows
+2024-05-07 11:20:47.525973 DEBUG::The following samples were found to have features but no metadata. They will be removed. SRR6928749

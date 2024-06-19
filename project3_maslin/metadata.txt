@@ -1,0 +1,21 @@
+Sample	Disease
+SRR6928701	Diabetes Mellitus
+SRR6928702	Diabetes Mellitus
+SRR6928703	Diabetes Mellitus
+SRR6928704	Diabetes Mellitus
+SRR6928705	Diabetes Mellitus
+SRR6928706	Diabetes Mellitus
+SRR6928707	Diabetes Mellitus
+SRR6928708	Diabetes Mellitus
+SRR6928709	Diabetes Mellitus
+SRR6928710	Diabetes Mellitus
+SRR6928742	Control
+SRR6928743	Control
+SRR6928744	Control
+SRR6928745	Control
+SRR6928746	Control
+SRR6928747	Control
+SRR6928748	Control
+SRR6928749 	Control
+SRR6928750	Control
+SRR6928751	Control
